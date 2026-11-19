@@ -1,0 +1,21 @@
+{
+  "name": "e-commerce-cypress-automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:login_1": "npx cypress run --spec cypress/e2e/login.cy.js",
+    "test:login_2": "npx cypress run --spec cypress/e2e/loginCopy.cy.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^16.3.0",
+    "cypress-mochawesome-reporter": "^5.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.10"
+  }
+}
